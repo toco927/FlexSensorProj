@@ -268,3 +268,12 @@ void printStructMessageInfo(const struct_message &data) {
     Serial.println("Dead 4: " + String(data.dead4));
     Serial.println("");
 }
+
+void drawData(const struct_message &data) {
+    //write relevant data being sent on screen
+}
+
+void drawStartupChecks() {
+  //give time to stabilize values, maybe drive everything low
+}
+
